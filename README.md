@@ -36,3 +36,7 @@ yay -S fish
 #### To set fish as default shell
 
 ```chsh -s /usr/local/bin/fish```
+
+#### Set OH MY FISH
+
+```curl -L https://get.oh-my.fish | fish```
