@@ -22,3 +22,17 @@ bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 
 ## Continue Installation
 asdf install
+
+
+## Setting Up Shell
+### Switching to fish
+
+#### Install fish
+
+```
+yay -S fish
+```
+
+#### To set fish as default shell
+
+```chsh -s /usr/local/bin/fish```
