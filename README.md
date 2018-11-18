@@ -33,10 +33,32 @@ asdf install
 yay -S fish
 ```
 
+
 #### To set fish as default shell
+
+Determine fish path
+
+```which fish```
+
+Set default shell to fish
 
 ```chsh -s /usr/local/bin/fish```
 
-#### Set OH MY FISH
+
+#### Install OH MY FISH (OMF)
 
 ```curl -L https://get.oh-my.fish | fish```
+
+
+##### Set omf plugins & fonts_
+
+```
+sets the theme 
+omf install budspencer
+
+set -g theme_powerline_fonts no
+set -g theme_nerd_fonts yes
+
+set -U fish_key_bindings fish_vi_key_bindings
+
+``` 
