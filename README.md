@@ -62,3 +62,6 @@ set -g theme_nerd_fonts yes
 set -U fish_key_bindings fish_vi_key_bindings
 
 ``` 
+
+#### Install git plugin
+omf install https://github.com/jhillyerd/plugin-git
